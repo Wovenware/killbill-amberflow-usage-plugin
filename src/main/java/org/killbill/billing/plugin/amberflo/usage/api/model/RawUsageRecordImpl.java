@@ -17,11 +17,11 @@ package org.killbill.billing.plugin.amberflo.usage.api.model;
 
 import java.math.BigDecimal;
 import java.util.UUID;
-import org.joda.time.DateTime;
-import org.killbill.billing.usage.api.RawUsageRecord;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.joda.time.DateTime;
+import org.killbill.billing.usage.api.RawUsageRecord;
 
 @Setter
 @Getter
@@ -33,6 +33,4 @@ public class RawUsageRecordImpl implements RawUsageRecord {
   private String unitType;
   private BigDecimal amount;
   private String trackingId;
-
- 
 }
